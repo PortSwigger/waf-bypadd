@@ -1,0 +1,9 @@
+<p>This Burp Suite extension is designed to bypass Web Application Firewalls (WAFs) by padding HTTP requests with dummy data.</p>
+<p>Many WAFs only analyze the first few kilobytes of an HTTP request. By filling this portion of the request with harmless data, the WAF can be tricked into not analyzing the actual, potentially malicious payloads. This extension can be particularly useful during penetration testing assignments, where WAFs might prevent certain types of payloads from reaching the application.</p>
+
+<p> Features</p>
+<ul>
+	<li>Ability to add a configurable amount of padding to the POST payloads.</li>
+	<li>Configurable settings to choose which Burp Suite tools the extension will work on (Proxy, Scanner, Repeater).</li>
+	<li>Supports URL Encoded, Multipart, JSON and XML requests.</li>
+</ul>

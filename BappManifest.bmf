@@ -1,0 +1,13 @@
+Uuid: 14c6fc737ce4468b807b80023d9740a8
+ExtensionType: 2
+Name: WAF Bypadd
+RepoName: waf-bypadd
+ScreenVersion: 0.9
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: False
+Author: Julian J. M
+ShortDescription: The extension intercepts POST requests to in-scope destinations, and prepends the request body with a configurable amount of padding. It
+EntryPoint: waf_bypadd.py
+BuildCommand: 
+SupportedProducts: Pro, Community
